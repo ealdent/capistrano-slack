@@ -45,6 +45,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency(%q<capistrano-spec>, [">= 0"])
   s.add_development_dependency(%q<yard>, [">= 0"])
   s.add_development_dependency(%q<bluecloth>, [">= 0"])
-  s.add_dependency(%q<highline>, ["~> 1.6.21"])
+  s.add_dependency(%q<highline>, ["~> 1.6"])
 
 end
