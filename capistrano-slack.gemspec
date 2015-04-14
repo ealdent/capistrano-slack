@@ -36,15 +36,15 @@ Gem::Specification.new do |s|
   s.rubygems_version = "1.8.23"
   s.summary = "Announce capistrano deploys to slack"
 
-  s.add_dependency(%q<capistrano>)
+  s.add_dependency(%q<capistrano>, ["~> 2.9.0"])
   s.add_dependency(%q<capistrano-log_with_awesome>, ["~> 0.0.2"])
-  s.add_dependency(%q<activesupport>, [">= 3"])
+  s.add_dependency(%q<activesupport>, ["~> 2.3.18"])
   s.add_development_dependency(%q<rspec>, [">= 2.5.0"])
   s.add_development_dependency(%q<bundler>, [">= 1.0.9"])
   s.add_development_dependency(%q<jeweler>, ["~> 1.8.0"])
   s.add_development_dependency(%q<capistrano-spec>, [">= 0"])
   s.add_development_dependency(%q<yard>, [">= 0"])
   s.add_development_dependency(%q<bluecloth>, [">= 0"])
+  s.add_dependency(%q<highline>, ["~> 1.6.21"])
 
 end
-
